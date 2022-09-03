@@ -23,7 +23,9 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2rem;
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 8rem auto 0 auto;
@@ -170,4 +172,13 @@ body {
 
 .hidden {
   display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
