@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;700&family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="big-chart">
+        <div class="header-chart">
+          <div class="title-chart-box">
+            <div class="title-chart">My balance</div>
+            <div class="title-amount">$921.48</div>
+          </div>
+          <div class="logo-chart-box">
+            <img src="images/logo.svg" class="logo-chart" />
+          </div>
+        </div>
+
+        <div class="main-chart">
+          <div class="main-char-title">Spending - Last 7 days</div>
+          <div class="main-chart-bars">
+            <div class="main-chart-bar">
+              <div class="bar"></div>
+              <div class="bar-day">mon</div>
+            </div>
+            <div class="main-chart-bar">
+              <div class="bar"></div>
+              <div class="bar-day">tue</div>
+            </div>
+            <div class="main-chart-bar">
+              <div class="bar bar-highlted"></div>
+              <div class="bar-day">wed</div>
+            </div>
+            <div class="main-chart-bar">
+              <div class="bar"></div>
+              <div class="bar-day">thu</div>
+            </div>
+            <div class="main-chart-bar">
+              <div class="bar"></div>
+              <div class="bar-day">fri</div>
+            </div>
+            <div class="main-chart-bar">
+              <div class="bar"></div>
+              <div class="bar-day">sat</div>
+            </div>
+            <div class="main-chart-bar">
+              <div class="bar"></div>
+              <div class="bar-day">sun</div>
+            </div>
+          </div>
+
+          <hr class="line" />
+
+          <div class="main-chart-info">
+            <div class="main-info--1">
+              <div class="main-info-title">Total this month</div>
+              <div class="main-info-amount">$478.33</div>
+            </div>
+            <div class="main-info--2">
+              <div class="main-info-percent">+2.4%</div>
+              <div class="main-info-perc__desc">from last month</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
